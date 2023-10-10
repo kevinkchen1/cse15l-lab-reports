@@ -38,17 +38,4 @@ Using cat without any arguments will result in nothing happening, as the command
 Using cat with a path to a directory will result in an error, because cat is used to display the content of files and this isn't possible when given a directory as an argument. This is shown in the picture above with cat messages, and there is an error after.
 
 
-Using cat with a path to a file as an argument will display the contents of the file that is in the argument. This is shown with cat en-us.txt and cat es-mx.txt.
-
-
-
-Share an example of using the command with no arguments.
-Share an exmaple of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
-So that’s 9 total examples (3 for each command). For each, include:
-
-A screenshot or Markdown code block showing the command and its output
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
-You will upload your submission by publishing the page on Github Pages, then printing the page to PDF and uploading to the Lab Report 1 assignment on Gradescope.
+Using cat with a path to a file as an argument will display the contents of the file that is in the argument. This is shown with cat en-us.txt and cat es-mx.txt. Running cat on those files displays the text that the file contains.
