@@ -3,6 +3,7 @@ We learned 3 terminal commands in the first week of CSE 15L. These are cd, ls an
 
 I will cover 3 examples of using each Unix command.
 
+## **Using cd**
 Using cd with no arguments changes to the home directory.
 Command: cd
 ![Image](img1.jpg)
@@ -17,7 +18,7 @@ Using with a path to a file as an argument.
 In the photo above, I also tried to cd using a path to a file as an argument, with the cd Hello.java. This causes an error because Hello.java is not a directory, but instead a Java file. cd can only switch into other directories.
 
 
-
+## **Using ls**
 ![Image](img3.jpg)
 Using ls with no arguments will list out the files and directories in the current working directory. For example, if I'm currently in the home directory, ls will display all contents in home.
 
@@ -28,7 +29,7 @@ Using ls with a path to a directory as an example will list the contents of that
 
 Using ls with a path to a file as an argument, will list specific information about that file. In the example above, ls en-us.txt outputs the name of the file.
 
-
+## **Using cat**
 ![Image](img5.jpg)
 
 Using cat without any arguments will result in nothing happening, as the command will wait for input from the user. This is shown in the image above.
