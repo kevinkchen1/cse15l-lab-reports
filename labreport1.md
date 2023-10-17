@@ -6,18 +6,27 @@ I will cover 3 examples of using each Unix command.
 **Using cd**
 Using cd with no arguments changes to the home directory.
 Command: cd
+Working directory: /home
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/8abad140-7b3b-4e81-a1fb-00a13f9b1dd2)
 
-The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct as running cd with no directory after should return to home.
+The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct, with no error, as running cd with no directory after should return to home.
 
 Using with a path to a directory as an argument
-Command: cd lecture1
-![Image](img2.jpg)
+Command: cd lecture1/messages
+Working directory: /home/lecture1/messages
+
+![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/c8284048-eb6d-42bf-81a4-9e1067234e02)
+
 The output of running this in the home directory is that the working directory is now switched to a directory called lecture1. I can continue to switch into other directories that are in lecture1.
 
 Using with a path to a file as an argument.
-In the photo above, I also tried to cd using a path to a file as an argument, with the cd Hello.java. This causes an error because Hello.java is not a directory, but instead a Java file. cd can only switch into other directories.
+Command: cd lecture1/Hello.java
+Working directory: /home
+
+![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/0a696e53-99b1-4c3b-a670-aa0050f34327)
+
+In the photo above, I also tried to cd using a path to a file as an argument, starting from the home directory with the path the file as cd lecture1/Hello.java. This causes an error because Hello.java is not a directory, but instead a Java file. cd can only switch into other directories.
 
 
 **Using ls**
