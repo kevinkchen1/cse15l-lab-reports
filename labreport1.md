@@ -16,6 +16,8 @@ Working directory: /home
 The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct, with no error, as running cd with no directory after should return to home.
 
 
+
+
 2. Using with a path to a directory as an argument
    
 Command: cd lecture1/messages
