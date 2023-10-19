@@ -5,24 +5,30 @@ I will cover 3 examples of using each Unix command.
 
 **Using cd**
 
-Using cd with no arguments
+1. Using cd with no arguments
+   
 Command: cd
+
 Working directory: /home
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/8abad140-7b3b-4e81-a1fb-00a13f9b1dd2)
 
 The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct, with no error, as running cd with no directory after should return to home.
 
-Using with a path to a directory as an argument
+2. Using with a path to a directory as an argument
+   
 Command: cd lecture1/messages
+
 Working directory: /home/lecture1/messages
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/c8284048-eb6d-42bf-81a4-9e1067234e02)
 
 The result is correct and there are no errors with this command with the given argument. The output of running this in the home directory is that the working directory is now switched to a directory called messages as a result of the given path to directory as an argument in the cd command.
 
-Using with a path to a file as an argument
+3. Using with a path to a file as an argument
+   
 Command: cd lecture1/Hello.java
+
 Working directory: /home
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/0a696e53-99b1-4c3b-a670-aa0050f34327)
