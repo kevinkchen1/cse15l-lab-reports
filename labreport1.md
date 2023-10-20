@@ -1,11 +1,11 @@
-# **Lab Report 1**
+# **Kevin Chen CSE 15L Lab Report 1**
 We learned 3 terminal commands in the first week of CSE 15L. These are cd, ls and cat, which stand for "change directory", "list" and "concatenate".
 
 I will cover 3 examples of using each Unix command.
 
 **Using cd**
 
-1. Using cd with no arguments
+Using cd with no arguments
    
 Command: cd
 
@@ -16,7 +16,7 @@ Working directory: /home
 The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct, with no error, as running cd with no directory after should return to home.<br>
 
 
-2. Using with a path to a directory as an argument
+Using with a path to a directory as an argument
    
 Command: cd lecture1/messages
 
@@ -27,7 +27,7 @@ Working directory: /home/lecture1/messages
 The result is correct and there are no errors with this command with the given argument. The output of running this in the home directory is that the working directory is now switched to a directory called messages as a result of the given path to directory as an argument in the cd command.
 
 
-3. Using with a path to a file as an argument
+Using with a path to a file as an argument
    
 Command: cd lecture1/Hello.java
 
@@ -40,7 +40,7 @@ In the photo above, I also tried to cd using a path to a file as an argument, st
 
 **Using ls**
 
-1. Using ls with no arguments
+Using ls with no arguments
 
 Command: ls
 
@@ -52,7 +52,7 @@ Working directory: /home
 Using ls with no arguments will list out the files and directories in the current working directory. This output is correct and is not an error. In this example, I'm currently in the home directory and ls will display all contents in home, which is just the lecture1 directory. 
 
 
-2. Using ls with a path to a directory as an argument
+Using ls with a path to a directory as an argument
    
 Command: ls lecture1/messages
 
@@ -64,7 +64,7 @@ Working directory: /home
 Using ls with a path to a directory will list the contents of the directory that the path specifies and does not cause an error. In the picture above, when I type ls lecture1/messages, it lists the contents in messages which are the txt files.
 
 
-3. Using ls with path to a file as an argument
+Using ls with path to a file as an argument
    
 Command: ls lecture1/Hello.java
 
@@ -78,7 +78,7 @@ Using ls with a path to a file as an argument does not cause an error, and will 
 
 **Using cat**
 
-1. Using cat with no arguments
+Using cat with no arguments
    
 Command: cat
 
@@ -90,7 +90,7 @@ Working directory: /home
 Using cat without any arguments will result in nothing happening and a new input line below where, as the command will wait for input from the user. This itself is not an error yet because it is waiting for more input from the user. This is shown in the image above.
 
 
-2. Using cat with a path to a directory as an argument
+Using cat with a path to a directory as an argument
 
 Command: cat lecture1/messages
 
@@ -102,7 +102,7 @@ Working directory: /home
 Using cat with a path to a directory will result in an error, because cat is used to display the content of files and this isn't possible when given a directory as an argument. This is shown in the picture above with cat messages, and there is an error after.
 
 
-3. Using cat with a path to a file as an argument
+Using cat with a path to a file as an argument
 
 Command: cat lecture1/messages/zh-cn.txt
 
