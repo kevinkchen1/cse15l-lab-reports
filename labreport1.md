@@ -13,9 +13,7 @@ Working directory: /home
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/8abad140-7b3b-4e81-a1fb-00a13f9b1dd2)
 
-The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct, with no error, as running cd with no directory after should return to home.
-
-
+The output after I run cd is just /home, which is the home directory. This is because running cd will always switch back to home directory, regardless of the current directory. This output is correct, with no error, as running cd with no directory after should return to home.\
 
 
 2. Using with a path to a directory as an argument
