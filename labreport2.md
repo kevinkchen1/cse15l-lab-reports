@@ -18,41 +18,8 @@
 
 Here is my code for StringServer:
 
-`import java.io.IOException;
-import java.net.URI;
+<img width="781" alt="Screenshot 2023-10-22 at 10 15 10 PM" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/1f9d5c37-db56-4f30-a6f6-13e9eb926125">
 
-class Handler implements URLHandler {
-    // The one bit of state on the server: a number that will be manipulated by
-    // various requests.
-    int num = 0;
-    String message = "";
-    public String handleRequest(URI url) {
-        if (url.getPath().equals("/")) {
-            return message;
-        } 
-        else if (url.getPath().contains("/add-message")) {
-            String[] parameters = url.getQuery().split("=");
-            num += 1;
-            message += String.format("%d. %s \n", num, parameters[1]);
-            return message;
-        } 
-        else {
-            return "404 Not Found!";
-        }
-           
-        }
-        
-    }
 
-class StringServer {
-    public static void main(String[] args) throws IOException {
-        if(args.length == 0){
-            System.out.println("Missing port number! Try any number between 1024 to 49151");
-            return;
-        }
+<img width="871" alt="Screenshot 2023-10-22 at 10 15 25 PM" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/2d9dab63-bc56-4473-99fd-3cc2cb0627c1">
 
-        int port = Integer.parseInt(args[0]);
-
-        Server.start(port, new Handler());
-    }
-}`
