@@ -1,4 +1,6 @@
 # Kevin Chen CSE 15L Lab Report 2
+
+
 ## Screenshot 1: 
 
 **Request:** /add-message?s=Hello
@@ -22,4 +24,21 @@ Here is my code for StringServer:
 
 
 <img width="871" alt="Screenshot 2023-10-22 at 10 15 25 PM" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/2d9dab63-bc56-4473-99fd-3cc2cb0627c1">
+
+## Part 2:
+
+**Path to private SSH key and public SSH key using ls**
+
+<img width="431" alt="Screenshot 2023-10-22 at 10 55 50 PM" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/87e46c57-d7f6-4e4b-9c6b-d47beae8632e">
+
+
+
+**Logging into ieng6 with no password:**
+
+<img width="495" alt="Screenshot 2023-10-22 at 10 48 12 PM" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/c4d4bcb7-ba06-4117-b96c-a8d9aa449878">
+
+## Part 3:
+Someting I learned from lab these past few weeks is that the mkdir command allows the users to create directories through the terminal. Another useful command, scp, allows users to securely transfer files between remote server and local server or two remote servers. One of the most useful commands I learned that I find myself using is man. Running man with another unix command as an argument will give documentation and information about what that command can do for a user.
+
+
 
