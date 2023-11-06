@@ -87,6 +87,7 @@ Six large controlled population-based studies of
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/f72b76c5-6bec-4e16-93b9-738251049e05)
 
+
 ```
 grep -i "heart" technical/*/1468-6708-3-10
 .txt
@@ -126,6 +127,7 @@ technical/biomed/rr37.txt:          or nocturnal), use of systemic corticosteroi
 
 <img width="939" alt="Screenshot 2023-11-05 at 9 37 03 PM" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/b621cbaa-59ad-4ce4-8c48-6736ec1b8484">
 
+
 ```
 grep -r "dyspnea" technical/plos  
 technical/plos/pmed.0010008.txt:        bronchodilation to relieve dyspnea, antibiotics for intercurrent respiratory tract
@@ -146,6 +148,7 @@ grep -w "all" technical/plos/journal.pbio.0020001.txt
 ```
 
 <img width="877" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/946c8cc0-740f-4cfc-8915-658b7409d9a2">
+
 
 ```
 grep -w "for" technical/plos/journal.pbio.0020010.txt
@@ -178,6 +181,7 @@ grep -l "Air Force One" *.txt
 
 <img width="616" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/897aa909-a30c-4840-b86c-a32af34189f1">
 
+
 ```
 grep -l "nocturnal" technical/biomed/*.txt            
 technical/biomed/1468-6708-3-10.txt
@@ -190,4 +194,4 @@ technical/biomed/rr37.txt
 
 <img width="732" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/c35ddec3-a608-43d5-b44d-cfaeaae04534">
 
-When grep is used with `-i` as an option, it returns a list of files that contain the string in the command. In the examples above, the first output is all the files that contain the string "Air Force One", second output has all the files that contain the string "nocturnal". This is helpful if the user wants to know which files contain a keyword or relevant phrase they want to filter by, so they can have a smaller list of files to work with. 
+When grep is used with `-l` as an option, it returns a list of files that contain the string in the command. In the examples above, the first output is all the files that contain the string "Air Force One", second output has all the files that contain the string "nocturnal". This is helpful if the user wants to know which files contain a keyword or relevant phrase they want to filter by, so they can have a smaller list of files to work with. 
