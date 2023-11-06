@@ -167,7 +167,7 @@ grep -w "for" technical/plos/journal.pbio.0020010.txt
 When grep is used with `-w` as an option, it indicates that grep will search for lines where there is an occurance of only the string provided. This means it will not return lines where the string is part of a larger word, but only lines where the string is a full word or phrase itself. In the examples, the strings are "all" and "for" which can both be found in larger words. If the user wants to look for lines with specifically these words by themselves, but doesn't use `-w`, then the output might have unwanted results. Using `-w` and then providing the string will ensure that the lines returned have exactly the string in the command.
 
 
-**Examples with `-l`:**`
+**Examples with `-l`:**
 
 ```
 grep -l "Air Force One" *.txt         
