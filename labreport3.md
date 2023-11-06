@@ -23,10 +23,6 @@ public void testReverseInPlace() {
   }
 ```
 
-**Image of symptom:**
-
-![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/b797141d-0f5c-4a4d-b49c-db20da0057dc)
-
 
 **Method with Bug (reverseInPlace):**
 
@@ -39,7 +35,7 @@ static void reverseInPlace(int[] arr) {
 ```
 **Output when Running JUnit test with bug in method:**
 
-![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/42da3e76-02eb-45b3-ae22-c416cf571af4)
+![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/b797141d-0f5c-4a4d-b49c-db20da0057dc)
 
 
 **Corrected Code:**
