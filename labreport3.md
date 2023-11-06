@@ -73,7 +73,7 @@ For the reverseInPlace method, a failure inducing input was any input array that
 1. `-i`
 2. `-r`
 3. `-w`
-4. `-v`
+4. `-l`
 
 
 **Examples with `-i`:**
