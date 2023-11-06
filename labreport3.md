@@ -12,7 +12,7 @@
 ```
   
 
-Non Failure Inducing Input:
+**Non Failure Inducing Input:**
 
 ```
 @Test 
