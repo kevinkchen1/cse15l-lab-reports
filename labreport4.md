@@ -15,7 +15,7 @@ The `ssh cs15lfa23pe@ieng6.ucsd.edu` command was used 8 commands ago so I presse
 
 Command: `git clone git@github.com:kevinkchen1/cse15llab7.git`
 
-**Keys Pressed:** *`Ctrl-C: git@github.com:kevinkchen1/cse15llab7.git` `git clone` `Ctrl-V``<Enter>`*
+**Keys Pressed:** *`Ctrl-C: git@github.com:kevinkchen1/cse15llab7.git `git clone` `Ctrl-V` `<Enter>``*
 I used `Ctrl-C` to copy the ssh clone URL from my forked lab7 Github repository and then `Ctrl-V` to paste it into the command line after `git clone`. Then I pressed enter to run the completed command to clone the forked repository.
 
 
