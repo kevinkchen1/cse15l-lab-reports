@@ -2,7 +2,7 @@
 
 ## Step 1: Connect to ieng6
 
-Command: `ssh cs15lfa23pe@ieng6.ucsd.edu` `<*Enter*>`
+Command: `ssh cs15lfa23pe@ieng6.ucsd.edu` *`<Enter>`*
 
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/2e59424e-ac9d-4752-abcc-7db540500a9c)
@@ -10,7 +10,7 @@ Command: `ssh cs15lfa23pe@ieng6.ucsd.edu` `<*Enter*>`
 
 ## Step 2: Clone repository with SSH url
 
-Command: `git clone git@github.com:kevinkchen1/cse15llab7.git` `<*Enter*>`
+Command: `git clone git@github.com:kevinkchen1/cse15llab7.git` *`<Enter>`*
 
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/abf77b5a-449a-4b60-aca1-a83c358e1fe9)
