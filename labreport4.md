@@ -19,9 +19,13 @@ Command: `git clone git@github.com:kevinkchen1/cse15llab7.git` *`<Enter>`*
 ## Step 3: Running JUnit Tests with ListExampleTests
 
 Commands:
-1. `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` *.java *`<up> <up> <up> <up><up> <Enter>`* The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` command was used 5 commands so I pressed the up arrow 5 times to get to that command and the ran it.
+1. `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar`
 
-2. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` *`<up> <up> <up> <up><up> <Enter>`* Similarily, after running the previous command to compile the JUnit Test, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was used 5 commands ago, so once again I pressed the up arrow 5 times to get to that command and than ran it to run the ListExamplesTests.
+**Keys Pressed:** *`<up> <up> <up> <up><up> <Enter>`* The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` command was used 5 commands so I pressed the up arrow 5 times to get to that command and the ran it.
+
+2. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+   
+**Keys Pressed:** *`<up> <up> <up> <up><up> <Enter>`* Similarily, after running the previous command to compile the JUnit Test, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was used 5 commands ago, so once again I pressed the up arrow 5 times to get to that command and than ran it to run the ListExamplesTests.
 
    
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
