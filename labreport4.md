@@ -65,7 +65,7 @@ After running the previous command to compile the JUnit Test, the `java -cp .:li
 ## Step 6: Commit and push changes to Github
 
 **Keys Pressed:** `git add ListExamples.java` `<enter>` `git commit -m"changed var"` `<enter>` `git push` `<enter>`
-After debugging and making edits to ListExamples.java, I want to have these changes reflected on the remote repository on Github. To do this, I do `git add` from the command line to add ` ListExamples.java` as a file to be included for the commit. After that, I can create the commit with a message "changed var" through `git commit -m"changed var"`. With the commit created, I can now push changes to my Github repository with `git push`, and the edits I commited will now show up on Github.
+After debugging and making edits to ListExamples.java, I want to have these changes reflected on the remote repository on Github. To do this, I do `git add` from the command line to add `ListExamples.java` as a file to be included for the commit. After that, I can create the commit with a message "changed var" through `git commit -m"changed var"`. With the commit created, I can now push changes to my Github repository with `git push`, and the edits I commited will now show up on Github.
 
 <img width="760" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/94e2c300-1a55-4bd5-a845-75b27cf2a191">
 
