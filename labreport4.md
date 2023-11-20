@@ -28,11 +28,11 @@ I used `Ctrl-C` to copy the ssh clone URL from my forked lab7 Github repository 
 Commands:
 1. `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar`
 
-**Keys Pressed:** *`<up> <up> <up> <up> <up> <Enter>`* The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar` command was used 5 commands ago so I pressed the up arrow 5 times to get to that command and then ran it.
+**Keys Pressed:** *`<up> <up> <up> <up> <up> <Enter>`* The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was used 5 commands ago so I pressed the up arrow 5 times to get to that command and then ran it.
 
 2. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
    
-**Keys Pressed:** *`<up> <up> <up> <up><up> <Enter>`* Similarily, after running the previous command to compile the JUnit Test, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was used 5 commands ago, so once again I pressed the up arrow 5 times to get to that command and than ran it to run the ListExamplesTests.
+**Keys Pressed:** *`<up> <up> <up> <up> <up> <Enter>`* Similarily, after running the previous command to compile the JUnit Test, the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` was used 5 commands ago, so once again I pressed the up arrow 5 times to get to that command and than ran it to run the ListExamplesTests.
 
    
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
@@ -45,8 +45,18 @@ After opening the ListExamples.java file in vim, my cursor was at the top, left 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/5dfc1daa-622a-4419-bc93-57443ec02b50)
 
 
+## Step 5: Run the tests to show that they now succeed
 
+Commands: 
+1. `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
 
+**Keys Pressed for:** `<up> <up> <up>``<Enter>`
+
+3. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` 
+
+**Keys Pressed for:** `<up> <up> <up>``<Enter>`
+
+<img width="565" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/9f247606-3854-49bd-bbf7-dc8b4e15a324">
 
 
 
