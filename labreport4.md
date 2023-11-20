@@ -17,7 +17,7 @@ Command: `git clone git@github.com:kevinkchen1/cse15llab7.git` `cd lab7`
 
 
 **Keys Pressed:** *`Ctrl-C: git@github.com:kevinkchen1/cse15llab7.git` `Typed on command line: git clone` `Ctrl-V` `<Enter>`*
-I used `Ctrl-C` to copy the ssh clone URL from my forked lab7 Github repository and then `Ctrl-V` to paste it into the command line after `git clone`. Then I pressed enter to run the completed command to clone the forked repository. Then I `cd lab7` to change the directory to the lab7 respository.
+I used `Ctrl-C` to copy the ssh clone URL from my forked lab7 Github repository and then `Ctrl-V` to paste it into the command line after `git clone`. Then I pressed enter to run the completed command to clone the forked repository. Then I `cd lab7` to change the directory to the lab7 repository.
 
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/abf77b5a-449a-4b60-aca1-a83c358e1fe9)
