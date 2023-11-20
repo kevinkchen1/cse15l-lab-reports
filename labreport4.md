@@ -13,10 +13,11 @@ The `ssh cs15lfa23pe@ieng6.ucsd.edu` command was used 8 commands ago so I presse
 
 ## Step 2: Clone repository with SSH url
 
-Command: `git clone git@github.com:kevinkchen1/cse15llab7.git`
+Command: `git clone git@github.com:kevinkchen1/cse15llab7.git` `cd lab7`
+
 
 **Keys Pressed:** *`Ctrl-C: git@github.com:kevinkchen1/cse15llab7.git` `Typed on command line: git clone` `Ctrl-V` `<Enter>`*
-I used `Ctrl-C` to copy the ssh clone URL from my forked lab7 Github repository and then `Ctrl-V` to paste it into the command line after `git clone`. Then I pressed enter to run the completed command to clone the forked repository.
+I used `Ctrl-C` to copy the ssh clone URL from my forked lab7 Github repository and then `Ctrl-V` to paste it into the command line after `git clone`. Then I pressed enter to run the completed command to clone the forked repository. Then I `cd lab7` to change the directory to the resposiory.
 
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/abf77b5a-449a-4b60-aca1-a83c358e1fe9)
@@ -36,10 +37,10 @@ Commands:
    
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
 
-
+## Step 4: Edit the code to fix the failing test
 
 **Keys Pressed:** from cursor at top, left of the file: `329w`, `e`, `x`, `i`, `"2"`, `<esc>` `:wq`
-After opening the ListExamples.java file in vim, my cursor was at the top, left of the file and I wanted to move the cursor to the line with the bug in the fastest way possible. To do this, I moved the cursor forward by 329 words with `329w` and 
+After opening the ListExamples.java file in vim, my cursor was at the top, left of the file and I wanted to move the cursor to the line with the bug in the fastest way possible. To do this, I moved the cursor forward by 329 words with `329w`, moved to the end of the current word "index" with `e` to land on "1" of `index1`. Then I pressed `x` to delete the "1", pressed `i` to enter insert mode and entered "2" to change the variable to `index2`. I then pressed `<esc>` to go back to normal mode and then used the command `:wq` to save and exit the file.
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/5dfc1daa-622a-4419-bc93-57443ec02b50)
 
