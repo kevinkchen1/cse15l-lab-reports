@@ -37,8 +37,9 @@ Commands:
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
 
 
-Kevin: pressed the arrow key down about 50 times to reach the line with bug, moved the cursor to the right at the end of “index1”. pressed i to enter insert mode, backspace once, then typed “2”, to change the variable name. Press esc to return to normal mode and :wq to save changes
-Faster way to do it: from top of the file, 329w, e, x, i, enter “2”, esc. :wq
+
+**Keys Pressed:** from cursor at top, left of the file: `329w`, `e`, `x`, `i`, `"2"`, `<esc>` `:wq`
+After opening the ListExamples.java file in vim, my cursor was at the top, left of the file and I wanted to move the cursor to the line with the bug in the fastest way possible. To do this, I moved the cursor forward by 329 words with `329w` and 
 
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/5dfc1daa-622a-4419-bc93-57443ec02b50)
 
