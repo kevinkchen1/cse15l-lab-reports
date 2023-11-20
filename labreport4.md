@@ -50,11 +50,11 @@ After opening the ListExamples.java file in vim, my cursor was at the top, left 
 Commands: 
 1. `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
 
-**Keys Pressed for:** `<up> <up> <up>``<Enter>`
+**Keys Pressed for:** `<up> <up> <up>` `<Enter>`
 
 3. `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` 
 
-**Keys Pressed for:** `<up> <up> <up>``<Enter>`
+**Keys Pressed for:** `<up> <up> <up>` `<Enter>`
 
 <img width="565" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/9f247606-3854-49bd-bbf7-dc8b4e15a324">
 
