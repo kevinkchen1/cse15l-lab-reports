@@ -25,7 +25,9 @@ Hello,
 
 I'd recommend that you run through a simulation of your ReverseInPlace method with an input array that has 2 or more values. Manually, running your method and keeping track of the values of the array you are reversing will help you understand what is going wrong. Additionally, you could add some print statements to show what value is being swapped during each iteration of the loop and see if that is the correct value that should be placed at the corresponding index.
 
+**Student Response:**
 
+<img width="504" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/9da4addf-cf58-40d1-ac16-42cc43240d68">
 
 
 
