@@ -38,6 +38,10 @@ Commands:
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
 
 ## Step 4: Edit the code to fix the failing test
+**Open File before editing:** 
+
+**Keys Pressed:** `vim ListExamples.java`
+
 
 **Keys Pressed:** from cursor at top, left of the file: `329w`, `e`, `x`, `i`, `"2"`, `<esc>` `:wq`
 After opening the ListExamples.java file in vim, my cursor was at the top, left of the file and I wanted to move the cursor to the line with the bug in the fastest way possible. To do this, I moved the cursor forward by 329 words with `329w`, moved to the end of the current word "index" with `e` to land on "1" of `index1`. Then I pressed `x` to delete the "1", pressed `i` to enter insert mode and entered "2" to change the variable to `index2`. I then pressed `<esc>` to go back to normal mode and then used the command `:wq` to save and exit the file.
