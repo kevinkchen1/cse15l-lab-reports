@@ -38,7 +38,7 @@ Commands:
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
 
 ## Step 4: Edit the code to fix the failing test
-**Open File before editing:** 
+**Open File in vim before editing:** 
 
 **Keys Pressed:** `vim ListExamples.java`
 
