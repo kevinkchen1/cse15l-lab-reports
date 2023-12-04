@@ -38,10 +38,12 @@ Commands:
 ![image](https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/925f05be-c5a9-491e-83d2-41c64f960242)
 
 ## Step 4: Edit the code to fix the failing test
+
 **Open File in vim before editing:** 
 
-**Keys Pressed:** `vim ListExamples.java`
+**Keys Pressed:** `vim ListExamples.java` `<Enter>`
 
+**Edit ListExamples.java File in vim:**
 
 **Keys Pressed:** from cursor at top, left of the file: `329w`, `e`, `x`, `i`, `"2"`, `<esc>` `:wq`
 After opening the ListExamples.java file in vim, my cursor was at the top, left of the file and I wanted to move the cursor to the line with the bug in the fastest way possible. To do this, I moved the cursor forward by 329 words with `329w`, moved to the end of the current word "index" with `e` to land on "1" of `index1`. Then I pressed `x` to delete the "1", pressed `i` to enter insert mode and entered "2" to change the variable to `index2`. I then pressed `<esc>` to go back to normal mode and then used the command `:wq` to save and exit the file.
@@ -68,7 +70,7 @@ After running the previous command to compile the JUnit Test, the `java -cp .:li
 
 ## Step 6: Commit and push changes to Github
 
-**Keys Pressed:** `git add ListExamples.java` `<enter>` `git commit -m"changed var"` `<enter>` `git push` `<enter>`
+**Keys Pressed:** `git add ListExamples.java` `<Enter>` `git commit -m"changed var"` `<Enter>` `git push` `<Enter>`
 After debugging and making edits to ListExamples.java, I want to have these changes reflected on the remote repository on Github. To do this, I do `git add` from the command line to add `ListExamples.java` as a file to be included for the commit. After that, I can create the commit with a message "changed var" through `git commit -m"changed var"`. With the commit created, I can now push changes to my Github repository with `git push`, and the edits I commited will now show up on Github.
 
 <img width="760" alt="image" src="https://github.com/kevinkchen1/cse15l-lab-reports/assets/108315438/94e2c300-1a55-4bd5-a845-75b27cf2a191">
