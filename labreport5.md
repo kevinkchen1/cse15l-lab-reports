@@ -60,8 +60,8 @@ How to fix bug:
 
 
 The way that I debugged this method is I used two pointers for indices of the array, where one starts at the 0th index and the second starts at the last index. I then proceed to swap these two values by saving the value of the left pointer in a variable, setting the value of left pointer to the right one, and then updating the right pointer with the saved left value. I then increase left pointer by 1 and decrease right pointer by 1, moving them closer to the center of the array. This loop continues until the two pointers reach the middle, meaning the entire array has been reversed.
-
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     int left = 0;
     int right = arr.length - 1;
     while (left < right) {
@@ -71,7 +71,8 @@ The way that I debugged this method is I used two pointers for indices of the ar
         left++;
         right--;
     }
-}`
+}
+```
 
 ## Part 2: Reflection:
 
